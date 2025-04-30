@@ -11,7 +11,7 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "CloudFlex API",
         "groups": [
           {
             "group": "Get Started",
@@ -22,20 +22,18 @@
             ]
           },
           {
-            "group": "Essentials",
+            "group": "Endpoint Examples",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+              "api-reference/endpoint/get",
+              "api-reference/endpoint/create",
+              "api-reference/endpoint/delete",
+              "api-reference/endpoint/webhook"
             ]
           }
         ]
       },
       {
-        "tab": "API Reference",
+        "tab": "Device API",
         "groups": [
           {
             "group": "API Documentation",
