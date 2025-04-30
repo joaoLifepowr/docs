@@ -24,10 +24,10 @@
           {
             "group": "Endpoint Examples",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "api-reference/cloudflex/get",
+              "api-reference/cloudflex/create",
+              "api-reference/cloudflex/delete",
+              "api-reference/cloudflex/webhook"
             ]
           }
         ]
@@ -44,10 +44,7 @@
           {
             "group": "Endpoint Examples",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "api-reference/device/devcreate",
             ]
           }
         ]
