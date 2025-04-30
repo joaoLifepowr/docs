@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
+  "theme": "maple",
   "name": "Mint Starter Kit",
   "colors": {
     "primary": "#16A34A",
@@ -14,11 +14,9 @@
         "tab": "CloudFlex API",
         "groups": [
           {
-            "group": "Get Started",
+            "group": "API Reference",
             "pages": [
-              "introduction",
-              "quickstart",
-              "development"
+              "introduction"
             ]
           },
           {
@@ -38,22 +36,35 @@
           {
             "group": "API Documentation",
             "pages": [
-              "api-reference/introduction"
+              "development"
             ]
           },
           {
             "group": "Endpoint Examples",
             "pages": [
-              "api-reference/device/get",
-              "api-reference/device/create"
+              {
+                "group": "Device Info",
+                "pages": [
+                  "api-reference/device/get",
+                  "api-reference/device/create",
+                  "api-reference/device/delete",
+                  "api-reference/device/webhook"
+                ]
+              },
+              {
+                "group": "Historical Data",
+                "pages": [
+                  "api-reference/device/historical/get",
+                  "api-reference/device/historical/create",
+                  "api-reference/device/historical/delete",
+                  "api-reference/device/historical/webhook"
+                ]
+              }
             ]
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": []
-    }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
