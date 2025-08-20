@@ -14,33 +14,34 @@
       {
         "group": "Authentication API",
         "pages": [
-          "api/auth/login"
+          "/api/auth/login",
+          "/api/auth/login_no"
         ]
       },
       {
         "group": "Devices API",
         "pages": [
-          "api/devices/list",
-          "api/devices/getDevice",
-          "api/devices/getDeviceDetails",
-          "api/devices/setDeviceDetails",
-          "api/devices/getPeripherals",
-          "api/devices/setPeripherals",
-          "api/devices/name",
-          "api/devices/savings",
-          "api/devices/cep"
+          "/api/devices/list",
+          "/api/devices/get_device",
+          "/api/devices/get_device_details",
+          "/api/devices/set_device_details",
+          "/api/devices/get_peripherals",
+          "/api/devices/set_peripherals",
+          "/api/devices/name",
+          "/api/devices/savings",
+          "/api/devices/cep"
         ]
       },
       {
         "group": "Terms API",
         "pages": [
-          "api/terms/getTerms"
+          "/api/terms/get_terms"
         ]
       },
       {
         "group": "Calculator API",
         "pages": [
-          "api/calculator/calculator"
+          "/api/calculator/calculator"
         ]
       }
     ]
