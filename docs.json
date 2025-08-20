@@ -9,64 +9,45 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "tabs": [
+    "pages": [
+      "introduction",
       {
-        "tab": "CloudFlex API",
-        "groups": [
-          {
-            "group": "API Reference",
-            "pages": [
-              "introduction"
-            ]
-          },
-          {
-            "group": "Endpoint Examples",
-            "pages": [
-              "api-reference/cloudflex/get",
-              "api-reference/cloudflex/create",
-              "api-reference/cloudflex/delete",
-              "api-reference/cloudflex/webhook"
-            ]
-          }
+        "group": "Authentication API",
+        "pages": [
+          "api/auth/login"
         ]
       },
       {
-        "tab": "Device API",
-        "groups": [
-          {
-            "group": "API Documentation",
-            "pages": [
-              "development"
-            ]
-          },
-          {
-            "group": "Endpoint Examples",
-            "pages": [
-              {
-                "group": "Device Info",
-                "pages": [
-                  "api-reference/device/getdev",
-                  "api-reference/device/createdev"
-                ]
-              },
-              {
-                "group": "Historical Data",
-                "pages": [
-                  "api-reference/device/historical/get",
-                  "api-reference/device/historical/create",
-                  "api-reference/device/historical/delete",
-                  "api-reference/device/historical/webhook"
-                ]
-              }
-            ]
-          }
+        "group": "Devices API",
+        "pages": [
+          "api/devices/list",
+          "api/devices/getDevice",
+          "api/devices/getDeviceDetails",
+          "api/devices/setDeviceDetails",
+          "api/devices/getPeripherals",
+          "api/devices/setPeripherals",
+          "api/devices/name",
+          "api/devices/savings",
+          "api/devices/cep"
+        ]
+      },
+      {
+        "group": "Terms API",
+        "pages": [
+          "api/terms/getTerms"
+        ]
+      },
+      {
+        "group": "Calculator API",
+        "pages": [
+          "api/calculator/calculator"
         ]
       }
     ]
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logo/LIFEPOWR - Primary logo.png",
+    "dark": "/logo/LIFEPOWR - Secondary logo.png"
   },
   "navbar": {
     "links": [
@@ -82,7 +63,7 @@
   },
   "errors": {
     "404": {
-      "redirect": false
+      "redirect": true
     }
   }
 }
