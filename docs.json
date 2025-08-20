@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "maple",
-  "name": "Mint Starter Kit",
+  "name": "LIFEPOWR UI API",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
@@ -64,7 +64,7 @@
   },
   "errors": {
     "404": {
-      "redirect": true
+      "redirect": false
     }
   }
 }
