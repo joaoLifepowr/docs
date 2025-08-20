@@ -14,8 +14,7 @@
       {
         "group": "Authentication API",
         "pages": [
-          "/api_docs/auth/login",
-          "/api_docs/auth/login_no"
+          "/api_docs/auth/login"
         ]
       },
       {
